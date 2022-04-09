@@ -4,6 +4,7 @@
 
 ### для того чтобы всё работало вам надо зайти на spotify for developers и создать свой дешборд в этом дешборде найдёте client id и secret id эти 2 параметра надо вставить в spotify/credetials и ещё надо две команды прописать чтобы работал фронтенд   а ну и чтобы сервер и фронт запустить надо :
 cd ./music_controller | python manage.py runserver
- cd./frontend 
-npm i webpack webpack-cli --save-dev
+
+ cd ./music_controller | cd./frontend | npm i webpack webpack-cli --save-dev (один раз прописать)
+ cd ./music_controller | cd./frontend | npm run dev
 ### больше ничего не надо удачи )
